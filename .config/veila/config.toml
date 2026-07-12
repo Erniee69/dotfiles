@@ -1,0 +1,34 @@
+theme = "window"
+
+[lock]
+aquire_timeout_seconds = 5
+auto_reload_config = true
+auth_backoff_base_ms = 500
+
+[fingerprint]
+enabled = true
+
+[background]
+mode = "file"
+path = "~/Wallpapers/lockscreen.ppm"
+blur_strength = 0
+
+[visuals.clock]
+enabled = true
+format = "24h"
+
+[weather]
+enabled = true
+location = "Bonn"
+unit = "celsius"
+
+[visuals.eye]
+enabled = false
+
+[visuals.power.poweroff]
+enabled = true
+confirm = true
+halign = "right"
+valign = "bottom"
+x = 0
+y = 0

@@ -1,0 +1,100 @@
+    OpenRGB v0.9+ (1.0rc3)
+    Commit:  from 
+    Launched: 20260630_090552
+====================================================================================================
+
+53    |Info:    [ResourceManager] Saving detector settings
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+56    |Info:    ------------------------------------------------------
+56    |Info:    |             Detecting I2C interfaces               |
+56    |Info:    ------------------------------------------------------
+56    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-3) Device 1002:1638 Subsystem: 1043:121D
+56    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-10) Device 1022:790B Subsystem: 1043:1A62
+57    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-1) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 3 (/dev/i2c-8) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [ResourceManager] Registering I2C interface: ASUE140D:00 (/dev/i2c-ASUE140D:00) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [ResourceManager] Registering I2C interface: ELAN9008:00 (/dev/i2c-ELAN9008:00) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 0 (/dev/i2c-6) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-4) Device 1002:1638 Subsystem: 1043:121D
+57    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-11) Device 1022:790B Subsystem: 1043:1A62
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-2) Device 1002:1638 Subsystem: 1043:121D
+57    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-9) Device 1022:790B Subsystem: 1043:1A62
+57    |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-7) Device 0000:0000 Subsystem: 0000:0000
+57    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-5) Device 1002:1638 Subsystem: 1043:121D
+57    |Info:    ------------------------------------------------------
+57    |Info:    |               Detecting I2C devices                |
+57    |Info:    ------------------------------------------------------
+655   |Info:    ------------------------------------------------------
+655   |Info:    |            Detecting I2C DIMM modules              |
+655   |Info:    ------------------------------------------------------
+757   |Info:    ------------------------------------------------------
+757   |Info:    |               Detecting I2C PCI devices            |
+757   |Info:    ------------------------------------------------------
+760   |Info:    ------------------------------------------------------
+760   |Info:    |               Detecting HID devices                |
+760   |Info:    ------------------------------------------------------
+760   |Info:    ------------------------------------------------------
+760   |Info:    |            Detecting libusb HID devices            |
+760   |Info:    ------------------------------------------------------
+772   |Info:    ------------------------------------------------------
+772   |Info:    |              Detecting other devices               |
+772   |Info:    ------------------------------------------------------
+784   |Info:    [ResourceManager] Calling Post-detection callbacks
+784   |Info:    ------------------------------------------------------
+784   |Info:    |                Detection completed                 |
+784   |Info:    ------------------------------------------------------
+784   |Dialog:  <h2>Warning:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>Depending on which interfaces failed to initialize, some RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB graphics cards may not be available in OpenRGB.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>For OpenRGB to access these devices, you must load the i2c-dev module along with the correct I2C driver module for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>If you are not using any of the devices listed above, you can safely ignore this message.</p>
+10157 |Info:    [ResourceManager] Initializing HID interfaces: Success
+10157 |Info:    ------------------------------------------------------
+10157 |Info:    |               Start device detection               |
+10157 |Info:    ------------------------------------------------------
+10161 |Info:    ------------------------------------------------------
+10161 |Info:    |             Detecting I2C interfaces               |
+10161 |Info:    ------------------------------------------------------
+10161 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-3) Device 1002:1638 Subsystem: 1043:121D
+10161 |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 2 at 0b00 (/dev/i2c-10) Device 1022:790B Subsystem: 1043:1A62
+10161 |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-1) Device 0000:0000 Subsystem: 0000:0000
+10161 |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+10161 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 3 (/dev/i2c-8) Device 0000:0000 Subsystem: 0000:0000
+10161 |Info:    [ResourceManager] Registering I2C interface: ASUE140D:00 (/dev/i2c-ASUE140D:00) Device 0000:0000 Subsystem: 0000:0000
+10161 |Info:    [ResourceManager] Registering I2C interface: ELAN9008:00 (/dev/i2c-ELAN9008:00) Device 0000:0000 Subsystem: 0000:0000
+10161 |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+10161 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 0 (/dev/i2c-6) Device 0000:0000 Subsystem: 0000:0000
+10161 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-4) Device 1002:1638 Subsystem: 1043:121D
+10162 |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 1 at 0b20 (/dev/i2c-11) Device 1022:790B Subsystem: 1043:1A62
+10162 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-2) Device 1002:1638 Subsystem: 1043:121D
+10162 |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 0000:0000 Subsystem: 0000:0000
+10162 |Info:    [ResourceManager] Registering I2C interface: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-9) Device 1022:790B Subsystem: 1043:1A62
+10162 |Info:    [i2c_smbus_linux] Failed to read i2c device PCI device ID
+10162 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-7) Device 0000:0000 Subsystem: 0000:0000
+10162 |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-5) Device 1002:1638 Subsystem: 1043:121D
+10162 |Info:    ------------------------------------------------------
+10162 |Info:    |               Detecting I2C devices                |
+10162 |Info:    ------------------------------------------------------
+10763 |Info:    ------------------------------------------------------
+10763 |Info:    |            Detecting I2C DIMM modules              |
+10763 |Info:    ------------------------------------------------------
+10865 |Info:    ------------------------------------------------------
+10865 |Info:    |               Detecting I2C PCI devices            |
+10865 |Info:    ------------------------------------------------------
+10867 |Info:    ------------------------------------------------------
+10867 |Info:    |               Detecting HID devices                |
+10867 |Info:    ------------------------------------------------------
+10867 |Info:    ------------------------------------------------------
+10867 |Info:    |            Detecting libusb HID devices            |
+10867 |Info:    ------------------------------------------------------
+10868 |Info:    ------------------------------------------------------
+10868 |Info:    |              Detecting other devices               |
+10868 |Info:    ------------------------------------------------------
+10876 |Info:    [ResourceManager] Calling Post-detection callbacks
+10876 |Info:    ------------------------------------------------------
+10876 |Info:    |                Detection completed                 |
+10876 |Info:    ------------------------------------------------------
+10876 |Dialog:  <h2>Warning:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>Depending on which interfaces failed to initialize, some RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB graphics cards may not be available in OpenRGB.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>For OpenRGB to access these devices, you must load the i2c-dev module along with the correct I2C driver module for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>If you are not using any of the devices listed above, you can safely ignore this message.</p>
