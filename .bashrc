@@ -16,7 +16,7 @@ venv_string() {
 
 git_string() {
 	if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-        printf " (\e[36mgit:$(basename $(git rev-parse --show-toplevel 2> /dev/null))/$(git branch --show-current 2> /dev/null)\e[0m)"
+        printf " (\e[36mgit:$(basename $(git rev-parse --show-toplevel 2> /dev/null) 2> /dev/null)/$(git branch --show-current 2> /dev/null)\e[0m)"
 	fi
 }
 

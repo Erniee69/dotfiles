@@ -10,7 +10,7 @@ enabled = true
 
 [background]
 mode = "file"
-path = "~/Wallpapers/lockscreen.ppm"
+path = "~/lockscreen.png"
 blur_strength = 0
 
 [visuals.clock]
